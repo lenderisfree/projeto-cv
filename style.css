@@ -298,7 +298,7 @@ a:hover{
     height: 10px;
     border-radius: 10px;
     border:   black;
-    background: linear-gradient(to right, var(--cor1) 0%, var(--cor1) 60%, #bcb9b9 40%); 
+    background: linear-gradient(to right, var(--cor1) 0%, var(--cor1) 50%, #bcb9b9 50%); 
 }
 
 #code{
