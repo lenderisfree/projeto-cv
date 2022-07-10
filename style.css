@@ -47,7 +47,7 @@ p{
     display: flex;
     max-width: 300px;
     flex-direction: column ;
-    flex-wrap: rap;    
+    flex-wrap: wrap;    
     background-color: rgb(0, 48, 97);
     justify-content: space-between;
 }
@@ -321,3 +321,21 @@ a:hover{
     text-align: justify; 
 }
 
+@media (min-width: 400px) and (max-width: 900px){
+    .container1{
+       flex-direction: column;
+       min-width: 500px;
+       text-align: center;
+       align-items: center;
+    }
+    .nomeprofissao h1{
+        text-align: center;
+    }
+
+    .nomeprofissao p{
+        text-align: center;
+    }
+    #titulocontato{
+        text-align: center;
+    }
+}
