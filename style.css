@@ -19,62 +19,48 @@
     --fontedestaque:'Kalam', cursive;
     --fontetitulos:'Cabin Condensed', sans-serif;
     --fontep: 'Dosis', sans-serif;
-
 }
 
 body{
     margin: auto;   
     margin-top: 50px;
     margin-bottom: 50px;  
-    min-width: 300px;
+    max-width: 800px;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     background-color:rgb(176, 214, 234);
-    
 }
 
-main{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    max-width: 1000px;
-    min-height: 1000px;
-    
-}
+
 
 h1{
     margin-bottom: 20px;
 }
 
-
 p{
-    font-family: var(--fontep);
-    
+    font-family: var(--fontep);  
 }
 
 .container1{
     display: flex;
-    max-width: 300px;
+    width: 100%;
     flex-direction: column ;
     flex-wrap: wrap;    
     background-color: rgb(0, 48, 97);
     justify-content: space-between;
-
 }
 
- img{   
+img{   
     width: 60%;    
     border-radius: 50%;
     justify-content: center;
     margin: auto;
     margin-bottom: 30px;
-
  }
 
- .descricao1{
+.descricao1{
     display: flex; 
     flex-direction: column;   
     justify-content: space-between;
@@ -82,15 +68,12 @@ p{
     row-gap: 40px;
     margin: 40px;
     height: 100%;
-    
-
-    
+  
  }
  .nomeprofissao{
     display: flex;
     flex-direction: column;
-    
-   
+
  }
 
 
@@ -133,9 +116,8 @@ p{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;  
-    column-gap: 10px;  
-    
- }
+    column-gap: 10px;     
+}
 
 .icon{
     color:  rgb(201, 198, 198);
@@ -153,8 +135,7 @@ span {
 }
 
 .dataformacao{
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 #cursos{
@@ -162,8 +143,7 @@ span {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: nowrap;
-    gap: 20px;
-   
+    gap: 20px;  
 }
 
 .container1 p{
@@ -177,7 +157,6 @@ span {
     color: #03a9f4;
     font-size: 20px;
 }
-
 
 a{
     text-decoration: none;
@@ -197,7 +176,6 @@ a:hover{
     line-height: 25px;    
     column-gap: 30px;
     justify-content: space-around;
- 
 }
 
 .descricao2{
@@ -213,6 +191,7 @@ a:hover{
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 .namedata{
     display: flex;
     flex-direction: row;
@@ -223,8 +202,6 @@ a:hover{
 .jobdescricao{
     text-align: justify;
 }
-
-
 
 .separação{    
     margin-top: 20px;
@@ -250,7 +227,6 @@ a:hover{
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 60%, #bcb9b9 10%);
-
 }
 
 .tec2{
@@ -259,7 +235,6 @@ a:hover{
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 50%, #bcb9b9 10%); 
-
 }
 
 .tec3{
@@ -268,15 +243,14 @@ a:hover{
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 10%, #bcb9b9 10%);
-
 }
+
 .tec4{
     width: auto;
     height: 10px;
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 20%, #bcb9b9 10%);
-
 }
 
 .tec5{
@@ -285,23 +259,22 @@ a:hover{
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 10%, #bcb9b9 10%);
-
 }
+
 .tec6{
     width: auto;
     height: 10px;
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 10%, #bcb9b9 10%);
-
 }
+
 .tec7{
     width: auto;
     height: 10px;
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 10%, #bcb9b9 10%);
-
 }
 
 .port{
@@ -311,6 +284,7 @@ a:hover{
     border:   black;
     background: linear-gradient(to right, var(--cor1) 0%, var(--cor1) 100%, #bcb9b9 0%); 
 }
+
 .esp{
     width: auto;
     height: 10px;
@@ -340,11 +314,10 @@ a:hover{
 }
 
 .cargo{
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 #sobre{
-    text-align: justify;
-  
+    text-align: justify; 
 }
+
