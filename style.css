@@ -28,7 +28,7 @@ body{
     max-width: 800px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     background-color:rgb(176, 214, 234);
 }
@@ -45,9 +45,9 @@ p{
 
 .container1{
     display: flex;
-    width: 100%;
+    max-width: 300px;
     flex-direction: column ;
-    flex-wrap: wrap;    
+    flex-wrap: rap;    
     background-color: rgb(0, 48, 97);
     justify-content: space-between;
 }
