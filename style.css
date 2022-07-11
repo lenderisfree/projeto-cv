@@ -134,6 +134,7 @@ span {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .dataformacao{
@@ -280,24 +281,24 @@ a:hover{
     background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 10%, #bcb9b9 10%);
 }
 
-.port{   
-    margin: auto;
+.port{
+    width: auto;
     height: 10px;
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor1) 0%, var(--cor1) 100%, #bcb9b9 0%); 
 }
 
-.esp{  
-    margin: auto; 
+.esp{
+    width: auto;
     height: 10px;
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor1) 0%, var(--cor1) 90%, #bcb9b9 10%); 
 }
 
-.ing{ 
-    margin: auto;   
+.ing{
+    width: auto;
     height: 10px;
     border-radius: 10px;
     border:   black;
