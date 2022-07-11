@@ -331,8 +331,11 @@ a:hover{
     }
     .container1{
     
-       max-width: 500px;
+       max-width: 450px;
        text-align: center;
+    }
+    .container2{
+        max-width: 450px;
     }
     .nomeprofissao h1{
         text-align: center;
