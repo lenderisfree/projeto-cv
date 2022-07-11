@@ -280,24 +280,24 @@ a:hover{
     background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 10%, #bcb9b9 10%);
 }
 
-.port{
-   
+.port{   
+    margin: auto;
     height: 10px;
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor1) 0%, var(--cor1) 100%, #bcb9b9 0%); 
 }
 
-.esp{
-    
+.esp{  
+    margin: auto; 
     height: 10px;
     border-radius: 10px;
     border:   black;
     background: linear-gradient(to right, var(--cor1) 0%, var(--cor1) 90%, #bcb9b9 10%); 
 }
 
-.ing{
-    
+.ing{ 
+    margin: auto;   
     height: 10px;
     border-radius: 10px;
     border:   black;
