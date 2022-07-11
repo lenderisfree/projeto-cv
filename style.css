@@ -325,7 +325,7 @@ a:hover{
     text-align: justify; 
 }
 
-@media (max-width: 800px){
+@media  (max-width: 900px){
     .container1{
     
        min-width: 500px;
@@ -340,5 +340,14 @@ a:hover{
     }
     #titulocontato{
         text-align: center;
+    }
+    .port{
+        align-items: center;
+    }
+    .ing{
+        align-items: center;
+    }
+    .esp{
+        align-items: center;
     }
 }
