@@ -31,6 +31,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     background-color:rgb(176, 214, 234);
+    
 }
 
 
@@ -50,6 +51,7 @@ p{
     flex-wrap: wrap;    
     background-color: rgb(0, 48, 97);
     justify-content: space-between;
+    box-shadow:  6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 img{   
@@ -176,6 +178,7 @@ a:hover{
     line-height: 25px;    
     column-gap: 30px;
     justify-content: space-around;
+    box-shadow:  6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 .descricao2{
