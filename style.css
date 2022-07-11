@@ -328,7 +328,7 @@ a:hover{
 @media  (max-width: 900px){
     .container1{
     
-       min-width: 500px;
+       max-width: 500px;
        text-align: center;
     }
     .nomeprofissao h1{
