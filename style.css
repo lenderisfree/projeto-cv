@@ -328,7 +328,7 @@ a:hover{
 @media  (max-width: 900px){
     .container1{
     
-       max-width: 500px;
+       max-width: 450px;
        text-align: center;
     }
     .nomeprofissao h1{
@@ -340,14 +340,5 @@ a:hover{
     }
     #titulocontato{
         text-align: center;
-    }
-    .port{
-        align-items: center;
-    }
-    .ing{
-        align-items: center;
-    }
-    .esp{
-        align-items: center;
     }
 }
