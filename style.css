@@ -321,12 +321,11 @@ a:hover{
     text-align: justify; 
 }
 
-@media (max-width: 900px){
+@media (max-width: 800px){
     .container1{
        flex-direction: column;
        min-width: 500px;
        text-align: center;
-       align-items: center;
     }
     .nomeprofissao h1{
         text-align: center;
