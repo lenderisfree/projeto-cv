@@ -325,13 +325,13 @@ a:hover{
     text-align: justify; 
 }
 
-@media  (max-width: 900px){
+@media (min-width: 300px) and (max-width: 900px){
     body{
         margin-top: 0px;
     }
     .container1{
     
-       max-width: 450px;
+       max-width: 500px;
        text-align: center;
     }
     .nomeprofissao h1{
